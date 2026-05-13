@@ -4,11 +4,11 @@
     "slug": "glikocheck",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/heartbeat.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/heartbeat.png",
       "resizeMode": "contain",
       "backgroundColor": "#E8F5E9"
     },
@@ -18,14 +18,14 @@
     "android": {
       "softwareKeyboardLayoutMode": "resize",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/heartbeat.png",
         "backgroundColor": "#E8F5E9"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/heartbeat.png"
     }
   }
 }
