@@ -8,7 +8,11 @@ Aplikacja mobilna (React Native + **Expo SDK 55**, TypeScript) do **przeglądani
 - Umożliwić filtrowanie i wyszukiwanie lokalnej bazy produktów.
 - Zapewnić prosty kalkulator ŁG zgodny ze wzorami podanymi w specyfikacji projektu.
 
+<<<<<<< HEAD
 ## Funkcjonalności
+=======
+## Funkcjonalności 
+>>>>>>> 50f0a628eb8795de9439a099e05518c50be614bf
 
 1. **Ekran główny (Produkty):** pole wyszukiwania, lista produktów, filtry poziomu IG i kategorii.
 2. **Baza lokalna:** produkty z polami: id, nazwa, kategoria, IG, węglowodany/100 g, opis, poziom IG.
