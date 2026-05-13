@@ -43,4 +43,4 @@ npx expo start
 
 ## Zastrzeżenie
 
-Aplikacja ma charakter edukacyjny; wartości IG/CHO są przykładowe i nie zastępują porady lekarza ani dietetyka.
+Aplikacja ma charakter edukacyjny; wartości IG są przykładowe i nie zastępują porady lekarza ani dietetyka.
