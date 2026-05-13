@@ -8,16 +8,46 @@ Aplikacja mobilna stworzona w **React Native** z użyciem **Expo** i **TypeScrip
 - Umożliwić filtrowanie i wyszukiwanie lokalnej bazy produktów.
 - Zapewnić prosty kalkulator ŁG zgodny ze wzorami podanymi w specyfikacji projektu.
 
-## Funkcjonalności 
+## Funkcjonalności aplikacji
 
-1. **Ekran główny (Produkty):** pole wyszukiwania, lista produktów, filtry poziomu IG i kategorii.
-2. **Baza lokalna:** produkty z polami: id, nazwa, kategoria, IG, węglowodany/100 g, opis, poziom IG.
-3. **Szczegóły produktu:** pełne informacje, pole masy porcji (walidacja &gt; 0), obliczenie ŁG, interpretacja (0–10 / 11–19 / ≥ 20), ulubione.
-4. **Ulubione:** lista z usuwaniem, komunikat przy pustej liście.
-5. **Historia:** ostatnio przeglądane (max 10), czyszczenie, komunikat przy pustej liście.
-6. **O aplikacji:** opis IG, ŁG, interpretacja.
-7. **Nawigacja:** React Navigation, dolne zakładki: Produkty, Ulubione, Historia, O aplikacji.
+### Ekran produktów
+- wyszukiwanie produktów po nazwie,
+- lista produktów spożywczych,
+- filtrowanie według poziomu indeksu glikemicznego,
+- filtrowanie według kategorii produktu.
 
+### Lokalna baza produktów
+- baza 126 produktów spożywczych,
+- dane produktu: ID, nazwa, kategoria, indeks glikemiczny, węglowodany na 100 g, opis oraz poziom IG.
+
+### Szczegóły produktu
+- pełne informacje o wybranym produkcie,
+- możliwość wpisania masy porcji,
+- walidacja wartości porcji większej niż 0,
+- obliczanie ładunku glikemicznego,
+- interpretacja wyniku: niski, średni lub wysoki ŁG,
+- dodawanie i usuwanie produktu z ulubionych.
+
+### Ulubione
+- lista zapisanych ulubionych produktów,
+- możliwość usuwania produktów z ulubionych,
+- komunikat w przypadku pustej listy.
+
+### Historia
+- lista ostatnio przeglądanych produktów,
+- ograniczenie historii do 10 ostatnich produktów,
+- możliwość wyczyszczenia historii,
+- komunikat w przypadku pustej historii.
+
+### O aplikacji
+- krótki opis indeksu glikemicznego,
+- wyjaśnienie ładunku glikemicznego,
+- interpretacja poziomów ŁG.
+
+### Nawigacja
+- nawigacja z wykorzystaniem React Navigation,
+- dolne zakładki: Produkty, Ulubione, Historia, O aplikacji.
+  
 ## Uruchomienie
 
 ```bash
