@@ -1,6 +1,6 @@
 # GlikoCheck
 
-Aplikacja mobilna stworzona w **React Native** z użyciem Expo i **Typescript** do **przeglądania przykładowego indeksu glikemicznego (IG)** produktów spożywczych oraz **obliczania ładunku glikemicznego (ŁG)** dla podanej porcji. Dane produktów są **wbudowane lokalnie**; **ulubione** i **historia ostatnio przeglądanych** produktów zapisywane są na urządzeniu przez **AsyncStorage**.
+Aplikacja mobilna stworzona w **React Native** z użyciem **Expo** i **Typescript** do **przeglądania przykładowego indeksu glikemicznego (IG)** produktów spożywczych oraz **obliczania ładunku glikemicznego (ŁG)** dla podanej porcji. Dane produktów są **wbudowane lokalnie**; **ulubione** i **historia ostatnio przeglądanych** produktów zapisywane są na urządzeniu przez **AsyncStorage**.
 
 ## Cel projektu
 
